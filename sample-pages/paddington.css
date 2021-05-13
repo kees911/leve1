@@ -1,0 +1,43 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;  
+    
+    background-color: #d2ddf3;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 3em;
+    color: #02061d;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #02061d;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.subtitle {
+    font-style: italic;
+}
