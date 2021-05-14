@@ -4,11 +4,19 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;  
     
-    background-color: #d2ddf3;
+    background-color: #d6e7f2;
 }
 
 header {
     text-align: center;
+    margin-bottom: 2em;
+}
+
+footer {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: solid #aaaaaa 1px;
+    text-align:right;
 }
 
 p {
@@ -36,8 +44,95 @@ nav {
 
 nav a{
     text-decoration: none;
+    color: #2e73b0;
+}
+
+a {
+    text-decoration: none;
+    color: #02061d;
+}
+
+a:hover {
+    color: #8ac0cb;
 }
 
 .subtitle {
     font-style: italic;
+}
+
+.content-block {
+    margin: 2em 5% 2em 5%;
+}
+
+/*Containers*/
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    filter: drop-shadow(0 0 0.75rem #999999);
+}
+
+.flex-container img {
+    padding: 0em;
+}
+
+.flex-one-half{
+    flex: 1 1 0px;
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #ffffff;
+    padding: 2em;
+}
+
+.flex-one-third{
+    flex-shrink: 1;
+    width: 33%;
+    padding: 2em;
+}
+
+.flex-two-thirds{
+    flex-shrink: 1;
+    width: 66%;
+    padding: 2em;
+}
+
+.flex-one-quarter{
+    flex-shrink: 1;
+    width: 25%;
+    padding: 2em;
+}
+
+.flex-three-quarters{
+    flex-shrink: 1;
+    width: 75%;
+    padding: 2em;
+}
+
+/*Animations*/
+@keyframes fading {
+    0%   {opacity: 1;}
+    25%  {opacity: 0.6;}
+    50%  {opacity: 0.2;}
+    75%  {opacity: 0.6;}
+    100% {opacity: 1;}
+  }
+  
+@keyframes bounce {
+    0%, 100% {transform: translateY(0);} 
+    50% {transform: translateY(-1em);}
+}
+
+div.bounce:hover {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+div.fading:hover {
+    animation-name: fading;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
