@@ -12,6 +12,7 @@ body{
 nav {
     font-size: 2em;
     align-self:flex-end;
+    font-family: 'Courier New', monospace;
 }
 
 a {
@@ -52,16 +53,18 @@ h2 {
 header {
     padding-bottom: 1em;
     margin-bottom: 2em;
-    border-bottom: solid #000000 1px;
+    border-bottom: solid #eeeeee 1px;
     text-align:right;
 }
 
 footer {
     margin-top: 2em;
     padding-top: 1em;
-    border-top: solid #000000 1px;
+    border-top: solid #eeeeee 1px;
     text-align:right;
 }
+
+
 
 .centered{
 text-align: center;

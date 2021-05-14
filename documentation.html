@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <link href="main.css" rel="stylesheet">
-    <title>Leve1</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" type="image/gif" href="assets/l1_favicon.gif" />
+        <title>Documentation – Leve1</title>
+    </head>
 
 <body>
     <header>
@@ -66,20 +67,96 @@
 <div class="code-block">
     <ul>
         <li class="commented">&lt;!--Unordered List--&gt;</li><br>
-    <ul><li>&lt;b&gt;Your bold text goes here. Be bold about it!&lt;/b&gt;</li></ul>
+    <ul><li>&lt;ul&gt</li>
+        <ul>
+            <li>&lt;li&gt;Apple&lt;/li&gt;</li>
+            <li>&lt;li&gt;Orange&lt;/li&gt;</li>
+            <li>&lt;li&gt;Banana&lt;/li&gt;</li>
+        </ul>
+        <li>&lt;/ul&gt;</li>
+    </ul>
 <br>
     <li class="commented">&lt;!--Ordered List--&gt;</li><br>
-    <ul><li>&lt;i&gt;Your italic text goes here. Fancy!&lt;/i&gt;</li></ul>
+    <ul><li>&lt;ol&gt</li>
+        <ul>
+            <li>&lt;li&gt;First&lt;/li&gt;</li>
+            <li>&lt;li&gt;Second&lt;/li&gt;</li>
+            <li>&lt;li&gt;Third&lt;/li&gt;</li>
+        </ul>
+        <li>&lt;/ol&gt;</li>
+    </ul>
     <br>
     <li class="commented">&lt;!--Further Indentation (Unordered)--&gt;</li><br>
-    <ul><li>&lt;u&gt;Your underlined text goes here. Make sure people don't confuse it for a link!&lt;/u&gt;</li></ul>
+    <ul><li>&lt;ul&gt;</li>
+        <ul>
+            <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+            <li>&lt;ul&gt;</li>
+            <ul>
+                <li>&lt;li&gt;Latte&lt;/li&gt;</li>
+                <li>&lt;li&gt;Macchiato&lt;/li&gt;</li>
+                <li>&lt;li&gt;Cappuccino&lt;/li&gt;</li>
+            </ul>
+            <li>&lt;/ul&gt;</li>
+            <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+            <li>&lt;ul&gt;</li>
+            <ul>
+                <li>&lt;li&gt;Chai&lt;/li&gt;</li>
+                <li>&lt;li&gt;Matcha&lt;/li&gt;</li>
+                <li>&lt;li&gt;Earl Grey&lt;/li&gt;</li>
+            </ul>
+            <li>&lt;/ul&gt;</li>
+        </ul>
+        <li>&lt;/ul&gt;</li>
+    </ul>
     <br>
     <li class="commented">&lt;!--Further Indentation (Ordered)--&gt;</li><br>
-    <ul><li>&lt;u&gt;Your underlined text goes here. Make sure people don't confuse it for a link!&lt;/u&gt;</li></ul>
+    <ul><li>&lt;ol&gt;</li>
+        <ul>
+            <li>&lt;li&gt;Rankings&lt;/li&gt;</li>
+            <li>&lt;ol&gt;</li>
+            <ul>
+                <li>&lt;li&gt;Gold&lt;/li&gt;</li>
+                <li>&lt;li&gt;Silver&lt;/li&gt;</li>
+                <li>&lt;li&gt;Bronze&lt;/li&gt;</li>
+            </ul>
+            <li>&lt;/ol&gt;</li>
+            <li>&lt;li&gt;Division&lt;/li&gt;</li>
+            <li>&lt;ol&gt;</li>
+            <ul>
+                <li>&lt;li&gt;Challenger&lt;/li&gt;</li>
+                <li>&lt;li&gt;Grandmaster&lt;/li&gt;</li>
+                <li>&lt;li&gt;Master&lt;/li&gt;</li>
+            </ul>
+            <li>&lt;/ol&gt;</li>
+        </ul>
+        <li>&lt;/ol&gt;</li>
+    </ul>
+    <br>
 </ul>
 </div>
 
 <h2>Embedding Media</h2>
+
+<div class="code-block">
+    <ul>
+        <li class="commented">&lt;!--Embedding an Image File--&gt;</li><br>
+    <ul><li>&lt;img src="link to image goes here"&gt;</li></ul>
+<br>
+    <li class="commented">&lt;!--Changing the Image Size--&gt;</li><br>
+    <ul><li class="dived">&lt;!--Specifying size is optional, but is useful when an image is resized too large or too small. Size can be expressed in px, %, and other measurements--&gt;</li><br>
+    <li>&lt;img src="link to image goes here" width="200px" height="100px"&gt;</li></ul>
+    <br>
+    <li class="commented">&lt;!--Adding a link--&gt;</li><br>
+    <ul><li>&lt;a href="link goes here"&gt;link text goes here&lt;/a&gt;</li></ul>
+    <br>
+    <li class="commented">&lt;!--Adding a link on an image--&gt;</li><br>
+    <ul><li>&lt;a href="link goes here"&gt;&lt;img src="link to image goes here"&gt;&lt;/a&gt;</li></ul>
+    <br>
+    <li class="commented">&lt;!--Embedding an inline frame--&gt;</li><br>
+    <ul><li class="dived">&lt;!--Inline frames, or iframes, can be used to embed other webpages into your website--&gt;</li><br>
+    <li>&lt;iframe src="link to website you want to embed goes here"&gt;&lt;/iframe&gt;</li></ul>
+</ul>
+</div>
 
 <h2>Lists</h2>
 
