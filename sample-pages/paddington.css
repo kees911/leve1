@@ -37,6 +37,10 @@ h2 {
     color: #02061d;
 }
 
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
 nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
@@ -64,6 +68,25 @@ a:hover {
     margin: 2em 5% 2em 5%;
 }
 
+.circle {
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    padding: 1em;
+    margin: 2em;
+    background-color: #02245e;
+    color: #ffffff;
+    align-content:inline-block;
+    text-align:center;
+    filter: drop-shadow(0 0 0.75rem #999999);
+  }
+
+  img.circle {
+      padding: 0em;
+      width: 15em;
+      height: 15em;
+  }
+
 /*Containers*/
 .flex-container {
     display: flex;
@@ -74,6 +97,15 @@ a:hover {
 
 .flex-container img {
     padding: 0em;
+}
+
+.flex-one-whole{
+    flex: 1 1 0px;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #ffffff;
+    padding: 2em;
 }
 
 .flex-one-half{
@@ -88,25 +120,37 @@ a:hover {
 .flex-one-third{
     flex-shrink: 1;
     width: 33%;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 2em;
+    background: #ffffff;
 }
 
 .flex-two-thirds{
     flex-shrink: 1;
     width: 66%;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 2em;
+    background: #ffffff;
 }
 
 .flex-one-quarter{
     flex-shrink: 1;
     width: 25%;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 2em;
+    background: #ffffff;
 }
 
 .flex-three-quarters{
     flex-shrink: 1;
     width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 2em;
+    background: #ffffff;
 }
 
 /*Animations*/
