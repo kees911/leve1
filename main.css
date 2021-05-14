@@ -5,8 +5,8 @@ body{
     margin-bottom: 5%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #dedede;
-    color: #222222;
+    background-color: #222222;
+    color: #eeeeee;
 }
 
 nav {
@@ -19,15 +19,15 @@ a {
 }
 
 a:link{
-    color: #222222;
+    color: #00e8d2;
 }
 
 a:visited {
-    color: #222222;
+    color: #00e8d2;
 }
 
 a:active {
-    color: #666666;
+    color: #00e8d2;
 }
 
 a:hover{
@@ -91,7 +91,7 @@ text-align: center;
 
 .theme-thumb {
     margin: 25px;
-    color: #000000;
+    color: #eeeeee;
   }
 
 .page-samples{
